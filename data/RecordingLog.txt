@@ -1,0 +1,167 @@
+[API Trapper      (4308:3fe4)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (39ec:24b8)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (39ec:428c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (39ec:428c)] Load Network Traffic Analyzers:
+[Network Analyzer (39ec:428c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (39ec:428c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (39ec:428c)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (39ec:428c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (39ec:428c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (39ec:428c)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (39ec:428c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (39ec:428c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (39ec:3aac)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[API Trapper      (4230: af0)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\89.0.774.76\BHO\ie_to_edge_stub.exe
+[API Trapper      (3e4c: 6a8)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (4150:1e80)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[API Trapper      (1f74:3bc8)] Recording in 64-bit mode: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[Net An. Warning  (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (39ec:2980)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:2980)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (39ec:3aac)] "GET /webtours/"   
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Client -> Server @ : 288 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /webtours/header.html"   
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Client -> Server @ : 341 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Client -> Server @ : 352 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer (39ec:17d4)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:17d4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (39ec:2980)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Web Request      (39ec:3aac)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (39ec:3aac)]   (Sid:  2) Client -> Server @ : 393 bytes (Service=HTTP)
+[Network Analyzer (39ec:2980)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (39ec:3aac)] "GET /WebTours/home.html"   
+[Network Analyzer (39ec:3aac)]   (Sid:  3) Client -> Server @ : 389 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  3) Server -> Client : 1661 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /webtours/images/webtours.png"   
+[Network Analyzer (39ec:3aac)]   (Sid:  3) Client -> Server @ : 373 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  3) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  2) Server -> Client : 1753 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Client -> Server @ : 404 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Server -> Client : 977 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /favicon.ico"   
+[Network Analyzer (39ec:3aac)]   (Sid:  2) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Net An. Warning  (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (39ec:428c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:2980)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (39ec:2980)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (39ec:3aac)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (39ec:3aac)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (39ec:3aac)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (39ec:3aac)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Client -> Server @ : 597 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (39ec:3aac)]   (Sid:  8) Client -> Server @ : 493 bytes (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (39ec:2980)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:17d4)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:2980)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Web Request      (39ec:3aac)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid:  9) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (39ec:17d4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (39ec:3aac)]   (Sid:  9) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (39ec:3aac)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid:  9) Client -> Server @ : 524 bytes (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid: 10) Client -> Server @ : 522 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  9) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 10) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  8) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid:  8) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (39ec:3aac)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Client -> Server @ : 515 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Client -> Server @ : 520 bytes (Service=HTTP)
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (39ec:3aac)]   (Sid: 13) Client -> Server @ : 503 bytes (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Client -> Server @ : 532 bytes (Service=HTTP)
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Server -> Client : 1030 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid: 14) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 13) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 13) Server -> Client : 853 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 14) Server -> Client : 987 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid: 13) Client -> Server @ : 520 bytes (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (39ec:3aac)]   (Sid: 14) Client -> Server @ : 524 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 14) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 13) Server -> Client : 1129 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (39ec:3aac)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (39ec:2980)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:2980)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      (39ec:3aac)] "POST /cgi-bin/itinerary.pl"   
+[Network Analyzer (39ec:3aac)]   (Sid: 15) Client -> Server @ : 735 bytes (Service=HTTP)
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (39ec:3aac)]   (Sid: 15) Server -> Client : 3970 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 15) Connection Terminated (by Server)
+[Web Request      (39ec:3aac)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (39ec:3aac)]   (Sid: 16) Client -> Server @ : 515 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 16) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (39ec:3aac)]   (Sid: 16) Client -> Server @ : 390 bytes (Service=HTTP)
+[Network Analyzer (39ec:428c)] Address lookup for WIN-1K532I9UPTJ = 192.168.0.12
+[Network Analyzer (39ec:428c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (39ec:3aac)]   (Sid: 16) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (39ec:3aac)] "GET /WebTours/home.html"   
+[Network Analyzer (39ec:3aac)]   (Sid: 17) Client -> Server @ : 487 bytes (Service=HTTP)
+[Network Analyzer (39ec:3aac)]   (Sid: 17) Server -> Client : 195 bytes  (Service=HTTP)
